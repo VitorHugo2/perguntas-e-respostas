@@ -21,7 +21,10 @@ app.get("/perguntar",(req,res)=>{
 })
 
 app.post('/salvarpergunta',(req,res)=>{
-    res.send("Formulario Recebido")
+    var titulo = req.body.titulo
+    var desc = req.body.descricao
+    res.send(`Formulario Recebido: Titulo ${titulo} <br> Descrição: ${desc}`)
+
 })
 
 
