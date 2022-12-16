@@ -1,0 +1,15 @@
+body{
+    background: linear-gradient(rgba(99, 99, 99, 0.5),rgba(221, 221, 221, 0.788));
+    height: 100vh;
+    
+}
+
+#img{
+    width: 70px;
+}
+
+.formperg{
+    margin-top: 1vh;
+    
+    
+}
